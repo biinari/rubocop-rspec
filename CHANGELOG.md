@@ -2,6 +2,7 @@
 
 ## Master (Unreleased)
 
+* Move our documentation from rubocop-rspec.readthedocs.io to docs.rubocop.org/rubocop-rspec. ([@bquorning][])
 * Add a new base cop class `::RuboCop::Cop::RSpec::Base`. The old base class `::RuboCop::Cop::RSpec::Cop` is deprecated, and will be removed in the next major release. ([@bquorning][])
 * Add support for subject detection after includes and example groups in `RSpec/LeadingSubject`. ([@pirj][])
 * Ignore trailing punctuation in context description prefix. ([@elliterate][])
