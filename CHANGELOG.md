@@ -11,6 +11,7 @@
 * Improve `RSpec/NestedGroups`, `RSpec/FilePath`, `RSpec/DescribeMethod`, `RSpec/MultipleDescribes`, `RSpec/DescribeClass`'s top-level example group detection. ([@pirj][])
 * Add detection of `let!` with a block-pass or a string literal to `RSpec/LetSetup`. ([@pirj][])
 * Add `IgnoredPatterns` configuration option to `RSpec/VariableName`. ([@jtannas][])
+* Add `MockNotStub` cop. ([@bquorning][], [@pirj][])
 
 ## 1.42.0 (2020-07-09)
 
